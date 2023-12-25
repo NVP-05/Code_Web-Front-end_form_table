@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <h3><b>Thêm mới nhân viên</b></h3>
+        <div>
+            <label name="name" for="name">Họ và tên</label>
+            <input name="name" type="text" required>
+        </div>
+        <br>
+        <div>
+            <label name="dateOfBirth" for="dateOfBirth">Ngày sinh đầy đủ</label>
+            <input type="date">
+        </div>
+        <div>
+            <label name="currentMonthAndYear" for="currentMonthAndYear">Tháng và năm</label>
+            <input name="currentMonthAndYear" type="month">
+        </div>
+        <br>
+        <div>
+            <label name="currentTime" for="currentTime">Tháng và năm</label>
+            <input name="currentTime" type="time">
+        </div>
+        <br>
+        <div>
+            <label name="gender" for="gender">Giới tính</label>
+            <input checked name="gender" type="radio"> Nam
+            <input name="gender" type="radio"> Nữ
+            <input name="gender" type="radio"> Khác
+        </div>
+        <br>
+        <div>
+            <label name="email" for="email">Email</label>
+            <input name="email" type="email" required>
+        </div>
+        <br>
+        <div>
+            <label name="password" for="password">Mật khẩu</label>
+            <input name="password"
+            type="password"
+            required
+            minlength="8" >
+            
+        </div>
+        <br>
+        <div>
+            <label name="aboutYourSelf" for="aboutYourSelf">Giới thiệu về bản thân</label>
+            <br>
+            <textarea name="aboutYourSelf"  id="aboutYourSelf" cols="60" rows="5">Xin đẹp</textarea>
+        </div>
+        <br>
+        <div>
+           <label name="city" for="city">Thành phố</label>
+           <select name="city" id="1">
+            <option value="HaNoi">Hà Nội</option>
+            <option value="ThanhHoa">Thanh Hóa</option>
+            <option value="HaiPhong">Hải Phòng</option>
+            <option value="BacLinh">Bắc Ninh</option>
+           </select>
+        </div>
+        <br>
+        <div>
+            <label name="upload" for="upload">Hình ảnh</label>
+            <input name="upload" type="file">
+        </div>
+        <br>
+        <div>
+            <label name="hobby" for="hobby">Sở thích</label>
+            <input type="checkbox" checked name="Code">
+            <label for="Code">Code</label>
+            <input type="checkbox" checked name="Chơi game">
+            <label for="Chơi game">Chơi game</label>
+            <input type="checkbox" name="Bơi lội">
+            <label for="Bơi lội">Bơi lội</label>
+            <input type="checkbox" name="Bơi lội">
+            <label for="Bơi lội">Bơi lội</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Finish">
+        </div>
+    </form>
+</body>
+</html>
